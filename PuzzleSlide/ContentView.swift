@@ -9,16 +9,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            ZStack {
+                Color.blue
+                    .ignoresSafeArea()
+                
+                VStack {
+                    Text("Sliding Puzzle")
+                        .font(.largeTitle)
+                        .bold()
+                        .foregroundColor(.white)
+                    
+                    Text("Challenge Your Mind!")
+                        .foregroundColor(.white)
+                        .padding(.bottom, 20)
+                    
+                    NavigationLink(destination: gameView()) {
+                        Text("Start Game")
+                            .padding()
+                            .background(Color.white)
+                            .foregroundColor(.blue)
+                            .cornerRadius(10)
+                    }
+                }
+                .padding()
+            }
+            .navigationBarHidden(true)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
