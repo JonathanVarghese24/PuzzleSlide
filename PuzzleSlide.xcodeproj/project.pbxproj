@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B20ED36C2D4D24DC0039DAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20ED3532D4D24DB0039DAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20ED35A2D4D24DB0039DAEC;
+			remoteInfo = PuzzleSlide;
+		};
+		B20ED3762D4D24DC0039DAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20ED3532D4D24DB0039DAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20ED35A2D4D24DB0039DAEC;
+			remoteInfo = PuzzleSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20ED35B2D4D24DB0039DAEC /* PuzzleSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20ED36B2D4D24DC0039DAEC /* PuzzleSlideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleSlideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20ED3752D4D24DC0039DAEC /* PuzzleSlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleSlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B20ED35D2D4D24DB0039DAEC /* PuzzleSlide */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuzzleSlide;
+			sourceTree = "<group>";
+		};
+		B20ED36E2D4D24DC0039DAEC /* PuzzleSlideTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuzzleSlideTests;
+			sourceTree = "<group>";
+		};
+		B20ED3782D4D24DC0039DAEC /* PuzzleSlideUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PuzzleSlideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20ED3582D4D24DB0039DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20ED3682D4D24DC0039DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20ED3722D4D24DC0039DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20ED3522D4D24DB0039DAEC = {
+			isa = PBXGroup;
+			children = (
+				B20ED35D2D4D24DB0039DAEC /* PuzzleSlide */,
+				B20ED36E2D4D24DC0039DAEC /* PuzzleSlideTests */,
+				B20ED3782D4D24DC0039DAEC /* PuzzleSlideUITests */,
+				B20ED35C2D4D24DB0039DAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20ED35C2D4D24DB0039DAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20ED35B2D4D24DB0039DAEC /* PuzzleSlide.app */,
+				B20ED36B2D4D24DC0039DAEC /* PuzzleSlideTests.xctest */,
+				B20ED3752D4D24DC0039DAEC /* PuzzleSlideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20ED35A2D4D24DB0039DAEC /* PuzzleSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20ED37F2D4D24DC0039DAEC /* Build configuration list for PBXNativeTarget "PuzzleSlide" */;
+			buildPhases = (
+				B20ED3572D4D24DB0039DAEC /* Sources */,
+				B20ED3582D4D24DB0039DAEC /* Frameworks */,
+				B20ED3592D4D24DB0039DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B20ED35D2D4D24DB0039DAEC /* PuzzleSlide */,
+			);
+			name = PuzzleSlide;
+			packageProductDependencies = (
+			);
+			productName = PuzzleSlide;
+			productReference = B20ED35B2D4D24DB0039DAEC /* PuzzleSlide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20ED36A2D4D24DC0039DAEC /* PuzzleSlideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20ED3822D4D24DC0039DAEC /* Build configuration list for PBXNativeTarget "PuzzleSlideTests" */;
+			buildPhases = (
+				B20ED3672D4D24DC0039DAEC /* Sources */,
+				B20ED3682D4D24DC0039DAEC /* Frameworks */,
+				B20ED3692D4D24DC0039DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20ED36D2D4D24DC0039DAEC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B20ED36E2D4D24DC0039DAEC /* PuzzleSlideTests */,
+			);
+			name = PuzzleSlideTests;
+			packageProductDependencies = (
+			);
+			productName = PuzzleSlideTests;
+			productReference = B20ED36B2D4D24DC0039DAEC /* PuzzleSlideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20ED3742D4D24DC0039DAEC /* PuzzleSlideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20ED3852D4D24DC0039DAEC /* Build configuration list for PBXNativeTarget "PuzzleSlideUITests" */;
+			buildPhases = (
+				B20ED3712D4D24DC0039DAEC /* Sources */,
+				B20ED3722D4D24DC0039DAEC /* Frameworks */,
+				B20ED3732D4D24DC0039DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20ED3772D4D24DC0039DAEC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B20ED3782D4D24DC0039DAEC /* PuzzleSlideUITests */,
+			);
+			name = PuzzleSlideUITests;
+			packageProductDependencies = (
+			);
+			productName = PuzzleSlideUITests;
+			productReference = B20ED3752D4D24DC0039DAEC /* PuzzleSlideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20ED3532D4D24DB0039DAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B20ED35A2D4D24DB0039DAEC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B20ED36A2D4D24DC0039DAEC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B20ED35A2D4D24DB0039DAEC;
+					};
+					B20ED3742D4D24DC0039DAEC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B20ED35A2D4D24DB0039DAEC;
+					};
+				};
+			};
+			buildConfigurationList = B20ED3562D4D24DB0039DAEC /* Build configuration list for PBXProject "PuzzleSlide" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20ED3522D4D24DB0039DAEC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B20ED35C2D4D24DB0039DAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20ED35A2D4D24DB0039DAEC /* PuzzleSlide */,
+				B20ED36A2D4D24DC0039DAEC /* PuzzleSlideTests */,
+				B20ED3742D4D24DC0039DAEC /* PuzzleSlideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20ED3592D4D24DB0039DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20ED3692D4D24DC0039DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20ED3732D4D24DC0039DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20ED3572D4D24DB0039DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20ED3672D4D24DC0039DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20ED3712D4D24DC0039DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20ED36D2D4D24DC0039DAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20ED35A2D4D24DB0039DAEC /* PuzzleSlide */;
+			targetProxy = B20ED36C2D4D24DC0039DAEC /* PBXContainerItemProxy */;
+		};
+		B20ED3772D4D24DC0039DAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20ED35A2D4D24DB0039DAEC /* PuzzleSlide */;
+			targetProxy = B20ED3762D4D24DC0039DAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20ED37D2D4D24DC0039DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20ED37E2D4D24DC0039DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20ED3802D4D24DC0039DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuzzleSlide/Preview Content\"";
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Scarfy.PuzzleSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20ED3812D4D24DC0039DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuzzleSlide/Preview Content\"";
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Scarfy.PuzzleSlide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20ED3832D4D24DC0039DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Scarfy.PuzzleSlideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleSlide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuzzleSlide";
+			};
+			name = Debug;
+		};
+		B20ED3842D4D24DC0039DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Scarfy.PuzzleSlideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleSlide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuzzleSlide";
+			};
+			name = Release;
+		};
+		B20ED3862D4D24DC0039DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Scarfy.PuzzleSlideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PuzzleSlide;
+			};
+			name = Debug;
+		};
+		B20ED3872D4D24DC0039DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS2WHS7X88;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Scarfy.PuzzleSlideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PuzzleSlide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20ED3562D4D24DB0039DAEC /* Build configuration list for PBXProject "PuzzleSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20ED37D2D4D24DC0039DAEC /* Debug */,
+				B20ED37E2D4D24DC0039DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20ED37F2D4D24DC0039DAEC /* Build configuration list for PBXNativeTarget "PuzzleSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20ED3802D4D24DC0039DAEC /* Debug */,
+				B20ED3812D4D24DC0039DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20ED3822D4D24DC0039DAEC /* Build configuration list for PBXNativeTarget "PuzzleSlideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20ED3832D4D24DC0039DAEC /* Debug */,
+				B20ED3842D4D24DC0039DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20ED3852D4D24DC0039DAEC /* Build configuration list for PBXNativeTarget "PuzzleSlideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20ED3862D4D24DC0039DAEC /* Debug */,
+				B20ED3872D4D24DC0039DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20ED3532D4D24DB0039DAEC /* Project object */;
+}
