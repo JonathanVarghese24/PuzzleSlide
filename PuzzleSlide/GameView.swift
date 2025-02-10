@@ -5,14 +5,7 @@
 //  Created by JV on 1/31/25.
 //
 
-
 import SwiftUI
-
-struct Tile: Identifiable {
-    let id = UUID()
-    var number: Int
-    var isBlank: Bool
-}
 
 struct GameView: View {
     @State private var tiles: [Tile] = [
@@ -33,10 +26,14 @@ struct GameView: View {
         VStack {
             LazyVGrid(columns: Array(repeating: GridItem(), count: 3)) {
                 ForEach(shuffledTiles.indices, id: \.self) { index in
+                    // Button for each tile
                     Button(action: {
-                        handleTileTap(at: index)
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                            handleTileTap(at: index)
+                        }
                     }) {
                         if shuffledTiles[index].isBlank {
+                            // Blank tile is gray
                             Text("")
                                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                                 .background(Color.gray.opacity(0.2))
@@ -52,6 +49,7 @@ struct GameView: View {
                 }
             }
             .padding()
+            .animation(.spring(response: 0.3, dampingFraction: 0.6), value: shuffledTiles)
             
             if isPuzzleSolved() {
                 Text("Congratulations! You solved the puzzle.")
@@ -63,47 +61,57 @@ struct GameView: View {
         }
     }
     
-    // Function to handle tile tap
     func handleTileTap(at index: Int) {
-        // Check if the tapped tile is adjacent to the blank tile
         if isAdjacentToBlank(index: index) {
             // Swap the tapped tile with the blank tile
             swapTiles(at: index)
         }
     }
     
-    // Function to check if a tile is adjacent to the blank tile
     func isAdjacentToBlank(index: Int) -> Bool {
+        // find the index of the blank tile
         let blankIndex = shuffledTiles.firstIndex(where: { $0.isBlank }) ?? 0
         
-        // Check if the indices are adjacent
+        // Check if the indices are adjacent, horizontally or vertically
         return abs(index - blankIndex) == 1 || abs(index - blankIndex) == 3
     }
     
-    // Function to swap two tiles
     func swapTiles(at index: Int) {
+        // finds blank tile and swaps position with tile that is clicked
         let blankIndex = shuffledTiles.firstIndex(where: { $0.isBlank }) ?? 0
-        
         // Swap the tiles
         shuffledTiles.swapAt(index, blankIndex)
     }
     
-    // Function to check if the puzzle is solved
     func isPuzzleSolved() -> Bool {
-        // Check if the tiles are in ascending order
+        // Used AI to help check that all numbers are in correct numerical order
+        // Check if the tiles are in ascending order (except for the blank tile at the end)
         return shuffledTiles.enumerated().allSatisfy { index, tile in
             if tile.isBlank {
+                // Blank tile should be at the end
                 return index == 8
             } else {
+                // Checks to see if numbers are in order
                 return tile.number == index + 1
             }
         }
     }
 }
 
-// Preview the game view
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
         GameView()
+    }
+}
+
+struct Tile: Identifiable, Equatable {
+    let id = UUID()
+    var number: Int
+    var isBlank: Bool //empty space tile
+    
+    // function to make sure there isnt any duplicate tiles
+    //checks to see if tiles to the left and right of a current tile are equal value
+    static func == (lhs: Tile, rhs: Tile) -> Bool {
+        return lhs.number == rhs.number && lhs.isBlank == rhs.isBlank
     }
 }

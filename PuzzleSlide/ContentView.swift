@@ -24,7 +24,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .padding(.bottom, 20)
                     
-                    NavigationLink(destination: gameView()) {
+                    NavigationLink(destination: GameView()) {
                         Text("Start Game")
                             .padding()
                             .background(Color.white)
